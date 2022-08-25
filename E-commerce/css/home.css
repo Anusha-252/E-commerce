@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.ec_home_main{
+    width: 100%;
+}
+.ec_home_wrapper{
+    width: 100%;
+}
+.ec_home_row1{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    background-image: url('../image/Mask\ Group\ 30.png');
+}
+.ec_home_row2{
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E1E1E1;
+}
+.ec_home_row2_inside{
+    height: 500px;
+    width: 98%;
+    margin: auto;
+    position: absolute;
+    top: 46%;
+    left: 1%;
+}
+/* for cards  */
+.ec_f_sec2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+.ec_f_sec2_col{
+    width: 50%;
+    border: 1px solid rgb(223, 219, 219);
+    box-shadow: outset;
+    height: auto;
+    margin: 8px;
+    border-radius: 5px; 
+    background-color: white;
+}
+.ec_col_topic{
+    width: 90%;
+    color: #445268;
+    font-size: 25px;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+}
+.ec_sec2_row{
+    display: flex;
+    margin: 10px;
+}
+.ec_s2_card{
+    width: 50%;
+    margin: 10px;
+    height: 160px;
+    border-radius: 5px;
+}
+.ec_s2_card img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/* ////////// */
+.ec_brand_card_img{
+    width: 90%;
+    margin: 5px;
+}
+.ec_brand_card_ib{
+    width: 100%;
+}
+.ec_brand_card_ib img{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+.ec_brand_dbox{
+    width: 100%;
+}
+.ec_brand_des{
+    width: 90%;
+    margin: auto;
+    font-size: 11px;
+    text-align: justify;
+}
+.ec_sec2_seemore{
+    text-align: right;
+    margin: auto;
+    width: 90%;
+    color: #445268;
+    font-weight: bold;
+    padding: 10px;
+}
+/* ////// */

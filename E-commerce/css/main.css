@@ -12,249 +12,12 @@ body{
 .ec_wrapper{
     width: 100%;
 }
-/* css for navbar top starts */
-.ec_tnav{
-    width: 100%;
-    background-color:#2C374A;
-    height: 80px;
-    display:flex;
-}
-.ec_tnav_ename{
-    width: 20%;
-}
-.ec_tnav_ename_image{
-    width: 70%;
-    margin: auto;
-    height: 100%;
-}
-.ec_tnav_ename_image img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.ec_tnav_esearch{
-    width: 50%;
-}
-.ec_tnav_searchbox{
-    width: 70%;
-    margin: auto;
-    height: 100%;
-}
-.ec_tnav_searchbox input[type=text] {
-    width: 100%;
-    margin: 20px 0px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    font-size: 14px;
-    background-color: white;
-    background-image: url(../image/searchicon.png);
-    background-position: 10px;
-    background-size: 27px;
-    background-repeat: no-repeat;
-    padding: 7px 8px 11px 42px;
-    -webkit-transition: width 0.4s ease-in-out;    
-}
-.search .fa {
-    color: #241d1d;
-    font-size: 21px;
-    border: none;
-    cursor: pointer;
-}
-.searchicon {
-    float: left;
-    padding: 1px 0px 0px 0px;
-    background-color: white;
-}
-.search input[type=text]:focus {
-    width: 100%;
-    outline: none;
-}
-.ec_tnav_ecorner{
-    width: 30%;
-}
-.ec_ecorner_wrapper{
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    color: white;
-    height: 100%;
-}
-.ec_ecorner_signup{
-    width: 30%;
-    margin: auto;
-}
-.ec_signup_wrapper{
-     width: 80%;
-     margin: auto;
-}
-.ec_ecorner_orders{
-    width: 30%;
-    margin: auto;
-}
-.ec_orders_wrapper{
-    width: 80%;
-    margin: auto;
-}
-.ec_ecorner_cart{
-    width: 30%;
-    margin: auto;
-}
-.ec_cart_wrapper{
-    width: 100%;
-    font-size: 20px;  
-}
-.ec_cart_wrapper i{
-    padding-right: 5px;
-}
-.ec_ecorner_wrapper h4{
-    display: block;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-.ec_ecorner_wrapper h5{
-    display: block;
-    font-size: 0.83em;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-weight:100;
-}
-/* css for top nav ends here */
-
-
-/* css for bottom nav starts here */
-.ec_bnav{
-    width: 100%;
-    background-color:#464F61;
-    height: auto;
-    /* padding: 2px 0px 2px 0px; */
-    display: flex;
-    /* position: fixed; */
-    z-index: 5;
-    font-size: 1px;
-
-}
-.ec_bnav_name{
-    width: 15%;
-    height: auto;
-}
-/* css for side bar starts here */
-#ec_sidebar {
-    height: 700px;
-    position: fixed;
-    width: 22%;
-    left: -22%;
-    background-color: #507A98;
-    
-}
-.ec_hamburger{
-    float: right;
-    margin: 10px;
-    font-size: x-large;
-    position: absolute;
-    left:100%;
-    top: -2px;
-    color: white;
-}
-.ec_hamburger i{
-    padding: 2px 0px;
-}
-.ec_hm_active{
-    left:85%;
-}
-.forhamburger span{
-    display: block;
-}
-.ec_logo {
-    width: 30%;
-    height: 11%;
-    margin: 0% 35% 0% 35%;
-    padding: 4% 0%;
-}
-.ec_name {
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    min-height: 76px;
-}
-.ec_name img{
-   width: 54%;
-   padding: 0px 5px 0px 15px;
-}
-.ec_logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
-}
-#ec_sidebar a {
-    color:white;
-    padding: 25px 40px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-.ec_links a:hover {
-    background-color: #67A0C9;
-}
-#ec_sidebar.active{
-    left: 0;
-}
-/* css for side bar ends here */
-.ec_icon{
-    margin: 0px 0px 0px 50px;
-}
-.ec_icon p{
-    color: white;
-    font-size: 20px;
-    display: block;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    padding: 10px;
-}
-
-
-.ec_nav_content{
-    width: 65%;
-    margin: auto 60px auto 60px;
-    text-align: center;
-}
-.ec_nav_content a{
-    padding:13px 20px;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-}
-.ec_nav_content a:hover {
-    background-color:rgb(163, 156, 156) 
-}
-
-.ec_nav_notification{
-    width: 20%;
-    font-size: 16px;
-    display: flex;
-    color: white;
-}
-
-.forbell {
-    float: left;
-    margin: auto;
-}
-
-.forellipsis {
-    float: right;
-    margin: auto;
-}
-
-/* css for botton nv ends here */
 
 /* css for main body starts here */
 .ec_main_body{
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: #E1E1E1;
-    /* margin: 43px 0px; */
 }
 .ec_main_wrapper{
     width: 90%;
@@ -264,7 +27,6 @@ body{
 .ec_det_heading{
     color: black;
     padding: 2px 0px;
-    /* margin: 2px 0px 10px 0px; */
 }
 .ec_det_sub{
     display: flex;
@@ -291,7 +53,7 @@ body{
     margin: 15px auto;
 }
 .details_hr{
-    margin: 10px 20px;
+    margin: 10px 16px 10px 0px;;
     color: gray;
 }
 .r11_e_c{
@@ -322,6 +84,12 @@ body{
 }
 .ec_r11_right h6{
     font-size: 15px;
+}
+.ec_r11_right_edit{
+    width: 10%;
+    padding-top: 70px;
+    padding-right: 5px;
+    text-align: right;
 }
 .ec_det_heading h2{
     display: block;
@@ -381,8 +149,6 @@ body{
     margin-inline-start: 1.4em;
 }
 .ec_r21_image{
-    /* background-image: url(../image/Mask\ Group\ 16.png); */
-    /* background-repeat: no-repeat; */
     background-color: #507A98;
     text-align: center;
     width: 80%;
