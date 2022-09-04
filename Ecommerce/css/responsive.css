@@ -1,0 +1,35 @@
+/* for mobile devices */
+@media screen and (max-width:480px){
+    /* navbar top */
+
+    /* navbae top ends */
+    /* nav bottom */
+    .ec_bnav_name{
+        width: 50% !important;
+    }
+    .ec_nav_content{
+        display: none;
+    }
+    .ec_nav_rightpart{
+        width: 50%;
+    }
+    /* sidebar */
+    #ec_sidebar{
+        width: 50%;
+        left: -50%;
+    }
+    /* nav bottom ends */
+     /*responsive taskbar starts here*/
+     .ec_taskbar {
+        display: block;
+    }
+
+    .ec_taskbar_items a {
+        padding: 0px 25px;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /*responsive taskbar ends here*/
+}

@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.ec_signin_main_container{
+    width: 100%;
+    background-color: #a4a8ae29;
+}
+.ec_signin_wrapper{
+    width: 25%;
+    margin: auto;
+}
+.ec_signin_logo{
+    width: 100%;
+    height: 60px;
+    /* margin-block-start: 1em; */
+}
+.ec_signin_logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ec_signin_box{
+    border: 1px solid #cfcaca;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.ec_signin_topic h1{
+    font-weight: normal;
+    margin-block-start: 0px;
+    margin-block-end: 0.4em;
+}
+.ec_si_email{
+    width: 100%;
+}
+.ec_si_email label{
+ font-size: 15px;
+ font-weight: bold;
+}
+input[type=email]{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border-color:rgb(110, 40, 40);
+    border-style: none;
+    margin-block-end: 1em;
+}
+.ec_si_btn{
+    width: 100%;
+    margin-block-end: 1em;
+}
+.ec_si_btn button{
+    width: 100%;
+    height: 30px;
+    background-color:#b59ddb8a;
+    border-width: 0.5px;
+    border-radius: 4px;
+    z-index: 20;
+}
+.ec_si_terms_condi {
+    font-size: 14px;
+    opacity: 0.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ec_si_create_account{
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+.ec_si_create_account p{
+    font-size: 12px;
+    margin-block-end: 0.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ec_si_createbtn{
+    width: 100%;
+    margin-block-end: 1em;
+}
+.ec_si_createbtn button{
+    width: 100%;
+    height: 30px;
+    background-color:#b59ddb8a;
+    border-width: 0.5px;
+    border-radius: 4px;
+    z-index: 20;
+    margin-bottom: 20px;
+}
+/* signin footer */
+.ec_signin_footer{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* height: 100px; */
+    border-top: 1px solid rgb(201, 196, 196);
+
+}
+.ec_signin_footer a{
+    text-decoration: none;
+}
+.ec_signin_footer_seperator{
+    display: inline-block;
+    width: 15px;
+}
+.ec_signin_footer_lastpart{
+    margin-top: 10px;
+    margin-inline-start: 20px;
+}

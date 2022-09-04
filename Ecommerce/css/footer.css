@@ -1,0 +1,145 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.ec_footer_wrapper{
+    width: 100%;
+}
+/* section 1 */
+.ec_f_sec1_content{
+    width: 100%;
+    height: auto;
+}
+.ec_f_sec1_content img{
+    width: 100%;
+    object-fit: contain;
+}
+/* secton 2 */
+.ec_f_sec2{
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.ec_f_sec2_col{
+    width: 50%;
+    border: 1px solid rgb(223, 219, 219);
+    box-shadow: outset;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px; 
+}
+.ec_col_topic{
+    background-color: #2C374A;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.ec_sec2_row{
+    display: flex;
+    margin: 10px;
+}
+.ec_s2_card{
+    width: 33%;
+    margin: 10px;
+    height: 150px;
+    border-radius: 5px;
+}
+.ec_s2_card img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/* section 3 */
+.ec_f_sec3{
+    height: auto;
+}
+.ec_f_sec3_heading{
+    background-color: #2C374A;
+    color: white;
+    text-align: center;
+    padding: 2px;
+
+}
+.ec_f_sec3_heading h4{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    font-weight: bold;
+}
+.ec_details_wrapper{
+    width: 100%;
+    height: 400px;
+}
+.ec_details_columns{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 250px;
+}
+.ec_f_sec3_details{
+    background-color: #464F61;
+    color: white;
+}
+.ec_f_s3_col{
+    width: 33%;
+    margin: 10px;
+}
+hr.ec_f_hr{
+    border: 0.5px solid  #2C374A;
+    width: 80%;
+    margin: 0px;
+}
+hr.ec_f_wrapper_hr{
+    border: 1px solid  #2C374A;
+}
+.ec_f_banks{
+    width: 90%;
+    margin: auto;
+}
+.ec_f_bank_names{
+    display: flex;
+}
+.ec_f_b1{
+    height: 30px ;
+    width: 7%;
+    margin: 5px;
+    border-radius: 5px;
+}
+.ec_f_b1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* section 4  */
+.ec_f_sec4{
+    width: 100%;
+    height: auto;
+
+}
+.ec_f_sec4_wrapper{
+    width: 90%;
+    margin: auto;
+}
+.ec_f_sec4_r1{
+    display: flex;
+    color: #445268;
+    font-weight: bold;
+}
+.ec_sec4_left{
+    width: 50%;
+}
+.ec_sec4_right{
+    width: 50%;
+    text-align: right;
+}
+.ec_f_sec4_r2{
+    display: flex;
+}
+.ec_f_s4_c1{
+    width: 33%;
+    margin: 30px;
+    text-align: justify;
+}
+

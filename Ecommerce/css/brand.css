@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+/* brand body starts */
+.ec_brand_main{
+    width: 100%;
+    background-color:  #E1E1E1;
+    height: auto;
+}
+.ec_brand_wrapper{
+    width: 98%;
+    display: flex;
+    margin: auto;
+    
+}
+/* col1 */
+.ec_brand_col_1{
+    background-color: white;
+    height: auto;
+    width: 20%;
+    margin: 25px 5px;
+}
+.ec_brand_col_1_wrapper{
+    width: 82%;
+    margin: auto;
+}
+.ec_brand_s3_col{
+    width: 80%;
+    margin: 10px;
+}
+.ec_brand_s3_col h4{
+    
+    margin-block-end: 0.33em;
+}
+hr.ec_brand_hr{
+    border: 0.5px solid  #2C374A;
+    width: 80%;
+    margin: 0px 0px 15px 0px;
+}
+.ec_brand_LI{
+    display: flex;
+    margin: 5px;
+}
+
+.ec_brand_img{
+    width: 15%;
+}
+.ec_brand_img img{
+    width: 50%;
+}
+.ec_brand_name{
+    width: 85%;
+}
+/* col2 */
+.ec_brand_col_2{
+    width: 80%;
+    margin: 25px 5px;
+}
+.ec_brand_col_2 a{
+    text-decoration: none;
+    color: black;
+}
+.ec_brand_r21{
+    display: flex;
+    height: auto;
+}
+.ec_brand_r22{
+    display: flex;
+}
+/* each card */
+.ec_brand_card1{
+    width: 25%;
+    margin: 0px 5px 15px 5px;
+    background-color: white;
+    height: auto;
+}
+.ec_brand_card2{
+    width: 25%;
+    margin: 0px 5px ;
+    background-color: white;
+    height: auto;
+}
+.ec_brand_card_img{
+    width: 100%;
+}
+.ec_brand_card_ib{
+    width: 80%;
+    margin: 20px auto;
+    height: 200px;
+}
+.ec_brand_card_ib img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ec_brand_dbox{
+    width: 100%;
+    margin: 5px  0px;
+}
+.ec_brand_des{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    font-size: 15px;
+}
+.ec_brand_price{
+    width: 100%;
+    margin: 10px 0px;
+}
+.ec_brand_p{
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+.ec_brand_cart{
+    width: 100%;
+    margin: 15px 0px;
+}
+.ec_brand_cart_btn{
+    width: 90%;
+    margin: auto;
+}
+.ec_brand_cbtn{
+    width: 70%;
+    background-color: #0071DC;
+    color: white;
+    border-color: #0071DC;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* each card ends */
+/* pagination */
+.ec_brand_pagination{
+    width: 100%;
+}
+.ec_b_nextpage{
+    width: 100%;
+    text-align: center;
+    background-color: #E1E1E1;
+}
+.ec_brand_pagi {
+    display: inline-block;
+    margin: auto;
+    width: 24%;
+    background-color: white;
+   margin-bottom: 20px;
+  }
+  
+  .ec_brand_pagi a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .ec_brand_pagi a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
