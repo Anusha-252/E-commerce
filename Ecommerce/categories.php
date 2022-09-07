@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/categories.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/all.css">
     <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/fontawesome.css">
     <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/all.min.css">

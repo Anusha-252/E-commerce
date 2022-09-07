@@ -33,3 +33,13 @@
 
     /*responsive taskbar ends here*/
 }
+
+/* for protrait mde ipads and tab */
+@media screen and (min-width:769px)and (max-width:1024px){
+    .diff{
+        display: none;
+    }
+    .ec_cat_card{
+        width: 32%;
+    }
+}

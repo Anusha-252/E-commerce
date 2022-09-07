@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #d4d3dd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ec_fpass_maindiv {
+    width: 100%;
+    background-color: #d4d3dd;
+}
+
+.ec_fpass_maindiv_wrapper {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #2C374A;
+    text-align: center;
+}
+
+/* first row */
+.ec_fpass_r1 {
+    margin-top: 100px;
+}
+
+.ec_fpass_r1 h1 {
+    font-size: 45px;
+}
+
+/* secomd row */
+.ec_fpass_r2  input[type=email] {
+    width: 65%;
+    padding: 15px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    border-style: none;
+}
+
+::placeholder {
+    color: gray;
+}
+
+/* buttons */
+
+.ec_fpass_button button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.ec_fpass_button button:hover {
+    background-color: rgb(182, 1, 1);
+}
+
+/* eye button */
+.fa-eye-slash {
+    margin-left: -41px;
+}
+
+
+
+
+
